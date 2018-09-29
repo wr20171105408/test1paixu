@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var nums: [Int] = [2,4,1,3,5,9,8,7,6,0]
+var temp=0
+nums.sort(by:{(num1, num2)in//sort排序
+    return num1>num2
+})
+    print(nums)
